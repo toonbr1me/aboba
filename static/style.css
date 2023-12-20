@@ -12,6 +12,8 @@ body{
     font-weight: 300;
     color: #868686;
     text-rendering: optimizeLegibility;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
 }
 .top{
     background-color: #1c1c1c;
@@ -296,4 +298,61 @@ a:hover, a:active{
 .topic-description {
     font-size: 16px;
     color: #cecece;
+}
+footer{
+    width: 100%;
+    margin-top: 2.5rem;
+    background-color: #202020;
+}
+.wrapper{
+    width: 88%;
+    margin: auto;
+}
+.footer-inner{
+    margin-top: 2.5rem !important;
+    padding: 50px 0 2.5rem;
+}
+.element{
+    width: 90% !important;
+}
+.d-flex{
+    display: flex;
+}
+.footer-nav h3{
+    color: #78a80f;
+    text-transform: uppercase;
+}
+.footer-nav hr{
+
+    background-color: #1b1b1b;
+    color: #1b1b1b;
+    height: 1px;
+    border: 0;
+}
+.footer-nav ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.footer-nav ul a li {
+    display: flex;
+    padding: 10px 0;
+    margin-left: -40px;
+    width: calc(100% - 30px);
+    cursor: pointer;
+    color: #aaa;
+    align-items: center;
+    border-bottom: 1px solid #1b1b1b;
+    border-width: 0.1px;
+}
+.footer-nav ul li:hover {
+    border-color: #78a80f;
+    color: #dcdcdc;
+}
+.flex-one{
+    flex: 1;
 }
